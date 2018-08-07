@@ -1,0 +1,1 @@
+# solidfire-sample-script
