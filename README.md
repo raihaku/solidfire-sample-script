@@ -3,10 +3,10 @@ SolidFire Sample Scripts
 
 SolidFireのProvisioned IOPSやAccountが持っているVolume数などの集計結果をAPI実行結果に追加するスクリプトです。
 
-GetClusterCapacitySumMetaWarn.py : MetadataのWarning値を返す
-ListAccountsCountVolume.py : Accountが持つVolume数を返す
-ListActiveNodesCountNode.py : Active Node数を返す
-ListVolumesSumQoS.py : Provisioned Burst/Max/Min IOPSを返す
+* GetClusterCapacitySumMetaWarn.py : MetadataのWarning値を返す
+* ListAccountsCountVolume.py : Accountが持つVolume数を返す
+* ListActiveNodesCountNode.py : Active Node数を返す
+* ListVolumesSumQoS.py : Provisioned Burst/Max/Min IOPSを返す
 
 Demo
 --------------
