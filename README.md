@@ -1,16 +1,16 @@
 SolidFire Sample Scripts
 ===
 
-SolidFire‚ÌProvisioned IOPS‚âAccount‚ªŽ‚Á‚Ä‚¢‚éVolume”‚È‚Ç‚ÌWŒvŒ‹‰Ê‚ðAPIŽÀsŒ‹‰Ê‚É’Ç‰Á‚·‚éƒXƒNƒŠƒvƒg‚Å‚·B
+SolidFireã®Provisioned IOPSã‚„AccountãŒæŒã£ã¦ã„ã‚‹Volumeæ•°ãªã©ã®é›†è¨ˆçµæžœã‚’APIå®Ÿè¡Œçµæžœã«è¿½åŠ ã™ã‚‹ã‚¹ã‚¯ãƒªãƒ—ãƒˆã§ã™ã€‚
 
-* GetClusterCapacitySumMetaWarn.py : Metadata‚ÌWarning’l‚ð•Ô‚·
-* ListAccountsCountVolume.py : Account‚ªŽ‚ÂVolume”‚ð•Ô‚·
-* ListActiveNodesCountNode.py : Active Node”‚ð•Ô‚·
-* ListVolumesSumQoS.py : Provisioned Burst/Max/Min IOPS‚ð•Ô‚·
+* GetClusterCapacitySumMetaWarn.py : Metadataã®Warningå€¤ã‚’è¿”ã™
+* ListAccountsCountVolume.py : AccountãŒæŒã¤Volumeæ•°ã‚’è¿”ã™
+* ListActiveNodesCountNode.py : Active Nodeæ•°ã‚’è¿”ã™
+* ListVolumesSumQoS.py : Provisioned Burst/Max/Min IOPSã‚’è¿”ã™
 
 Demo
 --------------
-ŽÀsŒ‹‰Ê
+å®Ÿè¡Œçµæžœ
 
 Requirement
 --------------
@@ -18,10 +18,10 @@ apt-get install python python-requests
 
 Usage
 --------------
-# Change your SolidFire URL, Username and Password in scripts
+- Change your SolidFire URL, Username and Password in scripts
 >endpoint['login'] = "admin"
 >endpoint['passwd'] = "P@ssw0rd"
 >url = 'https://solidfire.mvip/json-rpc/10.1'
 
-# Execute scripts
+- Execute scripts
 python .ListAccountsCountVolume.py
