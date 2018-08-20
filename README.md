@@ -14,16 +14,14 @@ Demo
 
 Requirement
 --------------
-apt-get install python python-requests
+    apt-get install python python-requests
 
 Usage
 --------------
 - Change your SolidFire URL, Username and Password in scripts
->endpoint['login'] = "admin"
-
->endpoint['passwd'] = "P@ssw0rd"
-
->url = 'https://solidfire.mvip/json-rpc/10.1'
+    endpoint['login'] = "admin"
+    endpoint['passwd'] = "P@ssw0rd"
+    url = 'https://solidfire.mvip/json-rpc/10.1'
 
 - Execute scripts
-python .ListAccountsCountVolume.py
+    python .ListAccountsCountVolume.py
