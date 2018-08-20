@@ -18,10 +18,10 @@ Requirement
 
 Usage
 --------------
-- Change your SolidFire URL, Username and Password in scripts
-    endpoint['login'] = "admin"
-    endpoint['passwd'] = "P@ssw0rd"
-    url = 'https://solidfire.mvip/json-rpc/10.1'
+1. Change your SolidFire URL, Username and Password in scripts  
+    >endpoint['login'] = "admin"  
+    >endpoint['passwd'] = "P@ssw0rd"  
+    >url = 'https://solidfire.mvip/json-rpc/10.1'  
 
-- Execute scripts
+2. Execute scripts  
     python .ListAccountsCountVolume.py
