@@ -7,6 +7,7 @@ SolidFireのProvisioned IOPSやAccountが持っているVolume数などの集計
 * ListAccountsCountVolume.py : Accountが持つVolume数を返す
 * ListActiveNodesCountNode.py : Active Node数を返す
 * ListVolumesSumQoS.py : Provisioned Burst/Max/Min IOPSを返す
+* SFVolMoveSimuration_v0.2.py : Upgrade時のVolume数 遷移をシミュレーションする
 
 Demo
 --------------
